@@ -417,3 +417,12 @@ footer p {
         padding: 24px 16px;
     }
 }
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto;
+        transition-duration: 0.01ms;
+    }
+}
