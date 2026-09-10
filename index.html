@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Инжектор Гаджет</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        input {
+            height: 22px;
+            font-family: "Trebuchet MS", Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <p class="eyebrow">Техноблог Владимира Кияева</p>
+        <h1 style="text-align: center;">Инжектор Гаджет</h1>
+        <p class="intro">Обзоры техники без лишнего шума: только личный опыт, детали и нормальные выводы.</p>
+        <img src="images/photo_2026-05-22_02-19-56.jpg" alt="Владимир Кияев" width="180" height="180">
+    </header>
+
+    <main>
+        <section class="about-section">
+            <h2>О блоге</h2>
+            <p>Здесь я собираю впечатления от техники, которой пользуюсь сам. Нравится разбираться, где устройство реально удобно, а где красивое описание не совпадает с жизнью.</p>
+        </section>
+
+        <section class="skills-section">
+            <div class="section-heading">
+                <p class="section-number">01</p>
+                <div>
+                    <h2>Навыки</h2>
+                    <p>То, на что обращаю внимание в первую очередь.</p>
+                </div>
+            </div>
+            <ul class="skills-grid">
+                <li class="skill-card">Тестирование устройств</li>
+                <li class="skill-card">Сравнение характеристик</li>
+                <li class="skill-card">Анализ камер и автономности</li>
+                <li class="skill-card">Написание обзоров техники</li>
+            </ul>
+        </section>
+
+        <section class="projects-section">
+            <div class="section-heading">
+                <p class="section-number">02</p>
+                <div>
+                    <h2>Что уже проверено</h2>
+                    <p>Несколько вещей, которыми пользовался достаточно долго.</p>
+                </div>
+            </div>
+            <ol class="projects-list">
+                <li>
+                    <article>
+                        <h3>Samsung Galaxy S21</h3>
+                        <p>Долго был основным телефоном. Даже сейчас ощущается флагманский характер, но батарея уже заметно устала и на активный день её не хватало.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>iPhone 17</h3>
+                        <p>Пришёл на замену старому смартфону. В повседневных задачах работает быстро, камера устраивает, а к системе привык буквально за пару дней.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Pioneer DDJ-200</h3>
+                        <p>Хороший стартовый пульт для тех, кто хочет попробовать себя в диджеинге. Материалы простые, зато функционала для первых сетов хватает.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Коврик Bloody</h3>
+                        <p>Большой быстрый коврик, который пережил не один сетап. Для динамичных игр подходит отлично, хотя в следующий раз возьму более контрольную поверхность.</p>
+                    </article>
+                </li>
+            </ol>
+        </section>
+
+        <aside>
+            <h2>Больше всего интересны смартфоны</h2>
+            <p>В них сразу видно разницу между характеристиками на бумаге и реальным использованием: камера, производительность, автономность и то, насколько телефон не раздражает каждый день.</p>
+            <a href="#feedback">Написать своё мнение</a>
+        </aside>
+
+        <section class="feedback-section" id="feedback">
+            <div class="section-heading">
+                <p class="section-number">03</p>
+                <div>
+                    <h2>Обратная связь</h2>
+                    <p>Если есть вопрос по устройству или свой опыт - можно написать сюда.</p>
+                </div>
+            </div>
+            <form>
+                <label for="name">Имя</label>
+                <input type="text" id="name" name="name" placeholder="Как к вам обращаться">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.ru">
+
+                <label for="message">Сообщение</label>
+                <textarea id="message" name="message" placeholder="Напишите, что думаете"></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Владимир Кияев</p>
+        <a href="#top">Наверх</a>
+    </footer>
+</body>
+</html>
