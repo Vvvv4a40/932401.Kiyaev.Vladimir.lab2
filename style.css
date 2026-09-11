@@ -2,8 +2,6 @@
     --silver: #c9cdd1;
     --silver-light: #f0f2f4;
     --steel: #7c858d;
-    --black: #121416;
-    --black-soft: #1c2024;
     --black-card: #24292e;
     --text: #f4f5f6;
     --muted: #c7cbd0;
@@ -44,7 +42,7 @@ a:hover {
 }
 
 a:active {
-    color: var(--steel);
+    color: var(--silver);
 }
 
 .site-header {
